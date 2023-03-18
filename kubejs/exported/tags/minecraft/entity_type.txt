@@ -1,0 +1,222 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 18, 2023, 5:48:02 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned (from Default)
+- minecraft:guardian (from Default)
+- minecraft:elder_guardian (from Default)
+
+#forge:squid
+- minecraft:squid (from occultism-1.19.2-1.73.0.jar)
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray (from Default)
+- minecraft:polar_bear (from Default)
+- minecraft:snow_golem (from Default)
+- minecraft:wither (from Default)
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#immersiveengineering:shaderbag/blacklist
+- minecraft:wither (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+- minecraft:iron_golem (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:spiders
+- minecraft:spider (from occultism-1.19.2-1.73.0.jar)
+
+#occultism:humans
+- #forge:villagers (from occultism-1.19.2-1.73.0.jar)
+- minecraft:player (from occultism-1.19.2-1.73.0.jar)
+
+#forge:horses
+- minecraft:horse (from occultism-1.19.2-1.73.0.jar)
+
+#forge:golems/snow
+- minecraft:snow_golem (from occultism-1.19.2-1.73.0.jar)
+
+#undergarden:rotspawn
+- undergarden:rotling (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:rotwalker (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:rotbeast (from The_Undergarden-1.19.2-0.8.3.jar)
+
+#forge:pigs
+- minecraft:pig (from occultism-1.19.2-1.73.0.jar)
+
+#abyss:entity
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton (from occultism-1.19.2-1.73.0.jar)
+- occultism:wild_hunt_wither_skeleton (from occultism-1.19.2-1.73.0.jar)
+
+#forge:parrots
+- minecraft:parrot (from occultism-1.19.2-1.73.0.jar)
+
+#forge:cows
+- minecraft:cow (from occultism-1.19.2-1.73.0.jar)
+
+#minecraft:frog_food
+- minecraft:slime (from Default)
+- minecraft:magma_cube (from Default)
+
+#farmersdelight:horse_feed_users
+- minecraft:horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:skeleton_horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:zombie_horse (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:donkey (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:mule (from FarmersDelight-1.19-1.2.0.jar)
+- minecraft:llama (from FarmersDelight-1.19-1.2.0.jar)
+
+#minecraft:raiders
+- minecraft:evoker (from Default)
+- minecraft:pillager (from Default)
+- minecraft:ravager (from Default)
+- minecraft:vindicator (from Default)
+- minecraft:illusioner (from Default)
+- minecraft:witch (from Default)
+
+#occultism:afrit_allies
+- minecraft:blaze (from occultism-1.19.2-1.73.0.jar)
+
+#forge:villagers
+- minecraft:villager (from occultism-1.19.2-1.73.0.jar)
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit (from Default)
+- minecraft:endermite (from Default)
+- minecraft:silverfish (from Default)
+- minecraft:fox (from Default)
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#forge:llamas
+- minecraft:llama (from occultism-1.19.2-1.73.0.jar)
+- minecraft:trader_llama (from occultism-1.19.2-1.73.0.jar)
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish (from Default)
+- minecraft:pufferfish (from Default)
+- minecraft:salmon (from Default)
+- minecraft:cod (from Default)
+- minecraft:squid (from Default)
+- minecraft:glow_squid (from Default)
+- minecraft:tadpole (from Default)
+
+#farmersdelight:dog_food_users
+- minecraft:wolf (from FarmersDelight-1.19-1.2.0.jar)
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#minecraft:impact_projectiles
+- #minecraft:arrows (from Default)
+- minecraft:snowball (from Default)
+- minecraft:fireball (from Default)
+- minecraft:small_fireball (from Default)
+- minecraft:egg (from Default)
+- minecraft:trident (from Default)
+- minecraft:dragon_fireball (from Default)
+- minecraft:wither_skull (from Default)
+- undergarden:blisterbomb (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:rotten_blisterberry (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:goo_ball (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:depthrock_pebble (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:minion_projectile (from The_Undergarden-1.19.2-0.8.3.jar)
+- mekanism:flame (from Mekanism-1.19.2-10.3.8.477.jar)
+
+#minecraft:beehive_inhabitors
+- minecraft:bee (from Default)
+
+#minecraft:skeletons
+- minecraft:skeleton (from Default)
+- minecraft:stray (from Default)
+- minecraft:wither_skeleton (from Default)
+
+#per_viam_invenire:replace_vanilla_navigator
+- occultism:foliot (from occultism-1.19.2-1.73.0.jar)
+- occultism:djinni (from occultism-1.19.2-1.73.0.jar)
+- occultism:afrit (from occultism-1.19.2-1.73.0.jar)
+- occultism:marid (from occultism-1.19.2-1.73.0.jar)
+- occultism:greedy_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:deer_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:cthulhu_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:devil_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:blacksmith_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:guardian_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:headless_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:chimera_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:goat_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:shub_niggurath_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:beholder_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:mummy_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:beaver_familiar (from occultism-1.19.2-1.73.0.jar)
+
+#ftbquests:no_loot_crates
+
+#minecraft:arrows
+- minecraft:arrow (from Default)
+- minecraft:spectral_arrow (from Default)
+
+#forge:sheep
+- minecraft:sheep (from occultism-1.19.2-1.73.0.jar)
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider (from Default)
+- minecraft:blaze (from Default)
+- minecraft:magma_cube (from Default)
+
+#undergarden:immune_to_virulent_mix
+- #undergarden:rotspawn (from The_Undergarden-1.19.2-0.8.3.jar)
+- #undergarden:cavern_creature (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:stoneborn (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:mog (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:gloomper (from The_Undergarden-1.19.2-0.8.3.jar)
+
+#forge:zombies
+- minecraft:zombie (from occultism-1.19.2-1.73.0.jar)
+- minecraft:zombie_villager (from occultism-1.19.2-1.73.0.jar)
+- minecraft:husk (from occultism-1.19.2-1.73.0.jar)
+- minecraft:drowned (from occultism-1.19.2-1.73.0.jar)
+
+#forge:chicken
+- minecraft:chicken (from occultism-1.19.2-1.73.0.jar)
+
+#forge:bosses
+- minecraft:ender_dragon (from forge-1.19.2-43.2.6-universal.jar)
+- minecraft:wither (from forge-1.19.2-43.2.6-universal.jar)
+
+#occultism:healed_by_demons_dream_fruit
+- occultism:foliot (from occultism-1.19.2-1.73.0.jar)
+- occultism:djinni (from occultism-1.19.2-1.73.0.jar)
+- occultism:afrit (from occultism-1.19.2-1.73.0.jar)
+- occultism:afrit_wild (from occultism-1.19.2-1.73.0.jar)
+- occultism:marid (from occultism-1.19.2-1.73.0.jar)
+- occultism:possessed_endermite (from occultism-1.19.2-1.73.0.jar)
+- occultism:possessed_enderman (from occultism-1.19.2-1.73.0.jar)
+- occultism:possessed_ghast (from occultism-1.19.2-1.73.0.jar)
+- occultism:wild_hunt_skeleton (from occultism-1.19.2-1.73.0.jar)
+- occultism:wild_hunt_wither_skeleton (from occultism-1.19.2-1.73.0.jar)
+- occultism:otherworld_bird (from occultism-1.19.2-1.73.0.jar)
+- occultism:greedy_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:bat_familiar (from occultism-1.19.2-1.73.0.jar)
+- minecraft:parrot (from occultism-1.19.2-1.73.0.jar)
+- occultism:deer_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:cthulhu_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:devil_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:dragon_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:blacksmith_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:guardian_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:headless_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:chimera_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:goat_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:shub_niggurath_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:beholder_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:fairy_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:mummy_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:beaver_familiar (from occultism-1.19.2-1.73.0.jar)
+- occultism:shub_niggurath_spawn (from occultism-1.19.2-1.73.0.jar)
+
+#forge:bats
+- minecraft:bat (from occultism-1.19.2-1.73.0.jar)
+
+#undergarden:cavern_creature
+- undergarden:nargoyle (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:scintling (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:muncher (from The_Undergarden-1.19.2-0.8.3.jar)
+- undergarden:sploogie (from The_Undergarden-1.19.2-0.8.3.jar)
