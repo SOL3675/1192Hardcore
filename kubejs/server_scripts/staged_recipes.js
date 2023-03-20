@@ -24,12 +24,7 @@ ServerEvents.recipes(event => {
     }
 
     function StagedShapelessCrafting(output, inputs, stage) {
-        let ingredients = []
-        inputs.forEach(input => {
-            let item_input = Item.of(input)
-            ingredients.push(Ingredient.of(item_input))
-        })
-        console.info(ingredients)
+        let ingredients = inputs.map(raw => Ingredient.of(Item.of(raw)))
         let staged_recipe = {
             type: "recipestages:stage",
             stage: stage,
