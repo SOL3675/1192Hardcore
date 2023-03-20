@@ -29,7 +29,6 @@ ServerEvents.recipes(event => {
             let item_input = Item.of(input)
             ingredients.push(Ingredient.of(item_input))
         })
-        console.info(ingredients)
         let staged_recipe = {
             type: "recipestages:stage",
             stage: stage,
