@@ -29,10 +29,10 @@ val stage_tags = [
 
 public class Stage {
     public var stageName as string;
-    public var tag as string;
+    public var tag as tags;
     public var items = new stdlib.List<IItemStack>();
 
-    public this(stageName as string, stageTag as tas) as void {
+    public this(stageName as string, stageTag as tags) as void {
         this.stageName = stageName;
         this.tag = stageTag;
     }
