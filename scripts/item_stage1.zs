@@ -8,7 +8,8 @@ public class ItemStage1 {
     public var items = new List<IItemStack>();
 
     val constItemList = [
-        <item:minecraft:apple>
+        <item:minecraft:crafting_table>,
+        <item:minecraft:furnace>
     ] as IItemStack[];
 
     val rootsItems = loadedMods.rootsclassic.getItemStacks();
