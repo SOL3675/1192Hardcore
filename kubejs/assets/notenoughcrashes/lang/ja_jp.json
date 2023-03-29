@@ -24,16 +24,5 @@
   "notenoughcrashes.initerrorscreen.paragraph3.line1": "\"リンクを入手\"ボタンをクリックするとブラウザーが開きます。",
   "notenoughcrashes.initerrorscreen.paragraph3.line2": "このレポートをMODの製作者に送信し",
   "notenoughcrashes.initerrorscreen.paragraph3.line3": "クラッシュの原因を修正してもらうことが推奨されます。",
-  "notenoughcrashes.initerrorscreen.paragraph3.line4": "そして、残念ですがエラーのためMinecraftを起動できません。",
-  "notenoughcrashes.midnightconfig.disableReturnToMainMenuComment1": "trueの場合 \"タイトル画面へ戻る\" ボタンはクラッシュ時に無効になります。",
-  "notenoughcrashes.midnightconfig.disableReturnToMainMenuComment2": "それにより、クラッシュから復帰することができなくなります。",
-  "notenoughcrashes.midnightconfig.disableReturnToMainMenu": "タイトル画面へ戻るボタンを無効化",
-  "notenoughcrashes.midnightconfig.catchInitializationCrashesComment1": "(Fabric限定) trueの場合、初期化に失敗した際ゲームは正常に終了し",
-  "notenoughcrashes.midnightconfig.catchInitializationCrashesComment2": "特別なクラッシュ画面は表示されません。",
-  "notenoughcrashes.midnightconfig.catchInitializationCrashes": "初期化中のクラッシュを検出",
-  "notenoughcrashes.midnightconfig.debugModIdentificationComment": "trueの場合、開発者のためにより詳細な情報がログに記録されます。",
-  "notenoughcrashes.midnightconfig.debugModIdentification": "デバッグ用MODの識別",
-  "notenoughcrashes.midnightconfig.crashLimitComment": "NECが一回のセッションでクラッシュを防止する最大回数を設定します。",
-  "notenoughcrashes.midnightconfig.crashLimit": "クラッシュ回数の制限",
-  "notenoughcrashes.midnightconfig.title": "Not Enough Crashesの設定"
-  }
+  "notenoughcrashes.initerrorscreen.paragraph3.line4": "そして、残念ですがエラーのためMinecraftを起動できません。"
+}
