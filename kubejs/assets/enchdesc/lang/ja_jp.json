@@ -2,7 +2,7 @@
 	"comment_01": "バニラエンチャントの説明",
 	"enchantment.minecraft.protection.desc": "ほとんどのソースからのダメージを軽減します。",
 	"enchantment.minecraft.fire_protection.desc": "火によるダメージの影響を減らします。また、火をつけたときの燃焼時間も減らします。",
-	"enchantment.minecraft.feather_falling.desc": "落下ダメージとエンダー パールのテレポーテーション ダメージを軽減します。",
+	"enchantment.minecraft.feather_falling.desc": "落下ダメージとエンダーパールのテレポーテーション ダメージを軽減します。",
 	"enchantment.minecraft.blast_protection.desc": "爆発によるダメージと爆発によるノックバックを軽減します。",
 	"enchantment.minecraft.projectile_protection.desc": "矢や火の玉などの発射物によるダメージを軽減します。",
 	"enchantment.minecraft.respiration.desc": "プレイヤーが水中で過ごせる時間を延長します。水中での視力も向上します。",
