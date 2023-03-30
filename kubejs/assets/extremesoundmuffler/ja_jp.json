@@ -1,7 +1,7 @@
 {
-  "key.open_muffler_gui": "sound mufflerの画面を開きます",
+  "key.open_muffler_gui": "Sound mufflerの画面を開きます",
 
-  "inventory.btn": "Muffler",
+  "inventory.btn": "ミュートの設定",
 
   "slider.btn.muffler.muffle": "ミュート",
   "slider.btn.muffler.unmuffle": "ミュートを解除",
@@ -11,7 +11,7 @@
   "main_screen.btn.csl.recent": "最近",
   "main_screen.btn.csl.all": "すべて",
   "main_screen.btn.csl.muffled": "ミュート済み",
-  "main_screen.btn.csl.tooltip": "%s の音を表示中",
+  "main_screen.btn.csl.tooltip": "%sの音を表示中",
   "main_screen.btn.tms.stop": "ミュートを停止",
   "main_screen.btn.tms.start": "ミュートを開始",
   "main_screen.btn.delete.sounds": "ミュートされた音を削除",
@@ -23,12 +23,12 @@
   "main_screen.btn.previous_sounds": "前の音",
   "main_screen.btn.anchors.disabled": "アンカーは無効化されています!",
   "main_screen.btn.anchors.set_message": "先にアンカーを設置してください",
-  "main_screen.btn.anchors.set": "アンカーを設置する",
+  "main_screen.btn.anchors.set": "アンカーを設置",
   "main_screen.btn.anchors.set_range": "範囲: 1 - 32",
-  "main_screen.btn.anchors.set_title": "アンカーのタイトルを変える",
+  "main_screen.btn.anchors.set_title": "アンカーの名前を変更",
   "main_screen.btn.anchors.edit": "アンカーを編集",
 
-  "main_screen.main_title": "ESM - メイン画面",
+  "main_screen.main_title": "ESM - メイン",
   "main_screen.empty": "ここに表示するものはまだありません..",
   "main_screen.tip": "ヒント: %s",
 
@@ -37,7 +37,7 @@
   "main_screen.side_screen.z": "Z: %s",
   "main_screen.side_screen.radius": "半径:",
   "main_screen.side_screen.dimension": "ディメンション: %s",
-  "main_screen.side_screen.title": "タイトル: ",
+  "main_screen.side_screen.title": "名前: ",
 
   "tip.disable": "コンフィグからこのヒントを無効化できます。",
   "tip.change_volume": "スライダーをドラッグして音量を調整できます。",
@@ -57,7 +57,7 @@
 
   "log.warn.loadAnchorList": "ESM: アンカーリストが見つかりませんでした。空のアンカーリストを作成します。",
   "log.error.loadAnchorList": "ESM: アンカーリストをロード中にエラーが発生しました:\\n %s",
-  "log.error.saveAnchorList": "ESM: アンカーリストをセーブ中にエラーが発生しました\\n %s",
+  "log.error.saveAnchorList": "ESM: アンカーリストをセーブ中にエラーが発生しました:\\n %s",
   "log.warn.loadMuffledList": "ESM: ミュートリストが見つかりませんでした。 空のミュートリストを作成します。",
   "log.error.loadMuffledList": "ESM: ミュートされている音のロード中にエラーが発生しました:\\n %s",
   "log.error.saveMuffledList": "ESM: ミュートされている音のセーブ中にエラーが発生しました:\\n %s"
