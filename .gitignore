@@ -25,3 +25,6 @@ usercache.json
 usernamecache.json
 kubejs/exported
 config/fastload.properties
+servers.dat
+servers.dat_old
+ftbqlocalizationkeys
