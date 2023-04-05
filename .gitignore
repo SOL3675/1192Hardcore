@@ -11,6 +11,7 @@ patchouli_books
 resourcepacks
 saves
 schematics
+screenshots
 1.19.2-Hardcore 1.19.2.mrpack
 1.19.2-Hardcore 1.19.2.zip
 options.txt
@@ -23,3 +24,7 @@ rhino.local.properties
 usercache.json
 usernamecache.json
 kubejs/exported
+config/fastload.properties
+servers.dat
+servers.dat_old
+ftbqlocalizationkeys

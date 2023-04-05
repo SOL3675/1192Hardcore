@@ -11,4 +11,6 @@ public class Globals {
         "stage6",
         "stage7"
     ] as string[];
+
+    public static val stageJMapName = "jmap";
 }

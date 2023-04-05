@@ -1,0 +1,34 @@
+{
+	id: "5C45D7E0122B44FF"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_ages_pack"
+	title: "{chapter.1.title}"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "{chapter.1.quest.1.title}"
+		icon: "minecraft:reinforced_deepslate"
+		x: -1.5d
+		y: -1.5d
+		shape: "gear"
+		subtitle: "{chapter.1.quest.1.subtitle}"
+		description: [
+			"{chapter.1.quest.1.description.1}"
+			"{chapter.1.quest.1.description.2}"
+			"{chapter.1.quest.1.description.3}"
+			"{chapter.1.quest.1.description.4}"
+			"{chapter.1.quest.1.description.5}"
+			"{chapter.1.quest.1.description.6}"
+			"{chapter.1.quest.1.description.7}"
+		]
+		size: 3.0d
+		id: "295DD4F3C9BE7B91"
+		tasks: [{
+			id: "5E30F510269DCD47"
+			type: "checkmark"
+			title: "{chapter.1.quest.1.task.1.title}"
+		}]
+	}]
+	quest_links: [ ]
+}
