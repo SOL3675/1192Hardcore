@@ -50,10 +50,10 @@
   "tip.left_buttons": "コンフィグからミュート/再生ボタンを左に変更できます",
   "tip.dark_theme": "コンフィグからダークテーマを設定できます",
   "tip.use_anchors": "アンカーは特定エリアで音声をミュートするのに使用します",
-  "tip.set_anchors": "いずれかの数字ボタンをクリックしマーカーボタンからアンカーの設置位置を設定できます",
+  "tip.set_anchors": "マーカーボタンからアンカーの位置を変更できます",
   "tip.modify_anchors": "一度設定したアンカーは、マーカーのボタンで変更可能です",
   "tip.modify_anchors_2": "一度設定したアンカーは、後から名前と半径を変更できます",
-  "tip.reset_recent_sounds": "\"最近\"画面で、Shiftとゴミ箱のボタンをクリックで最近リストを消去できます。",
+  "tip.reset_recent_sounds": "\"最近\"画面でShift+ゴミ箱をクリックしリストを消去できます",
 
   "log.warn.loadAnchorList": "ESM: アンカーリストが見つかりませんでした。空のアンカーリストを作成します。",
   "log.error.loadAnchorList": "ESM: アンカーリストをロード中にエラーが発生しました:\\n %s",
