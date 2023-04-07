@@ -35,7 +35,7 @@
   "main_screen.side_screen.x": "X: %s",
   "main_screen.side_screen.y": "Y: %s",
   "main_screen.side_screen.z": "Z: %s",
-  "main_screen.side_screen.radius": "半径:",
+  "main_screen.side_screen.radius": "半径: %s",
   "main_screen.side_screen.dimension": "ディメンション: %s",
   "main_screen.side_screen.title": "名前: ",
 
