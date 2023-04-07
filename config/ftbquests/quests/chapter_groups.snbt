@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "30310CC84049DFEE", title: "Stage1: Stone Age" }]
+	chapter_groups: [
+		{ id: "27FAEE5400EF4E9E", title: "Stage0: Started" }
+		{ id: "30310CC84049DFEE", title: "Stage1: Stone Age" }
+	]
 }

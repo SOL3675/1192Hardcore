@@ -6,29 +6,100 @@
 	title: "{chapter.1.title}"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "{chapter.1.quest.1.title}"
-		icon: "minecraft:reinforced_deepslate"
-		x: -1.5d
-		y: -1.5d
-		shape: "gear"
-		subtitle: "{chapter.1.quest.1.subtitle}"
-		description: [
-			"{chapter.1.quest.1.description.1}"
-			"{chapter.1.quest.1.description.2}"
-			"{chapter.1.quest.1.description.3}"
-			"{chapter.1.quest.1.description.4}"
-			"{chapter.1.quest.1.description.5}"
-			"{chapter.1.quest.1.description.6}"
-			"{chapter.1.quest.1.description.7}"
-		]
-		size: 3.0d
-		id: "295DD4F3C9BE7B91"
-		tasks: [{
-			id: "5E30F510269DCD47"
-			type: "checkmark"
-			title: "{chapter.1.quest.1.task.1.title}"
-		}]
-	}]
+	quests: [
+		{
+			title: "{chapter.1.quest.1.title}"
+			icon: "minecraft:reinforced_deepslate"
+			x: -1.5d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "{chapter.1.quest.1.subtitle}"
+			description: [
+				"{chapter.1.quest.1.description.1}"
+				"{chapter.1.quest.1.description.2}"
+				"{chapter.1.quest.1.description.3}"
+				"{chapter.1.quest.1.description.4}"
+				"{chapter.1.quest.1.description.5}"
+				"{chapter.1.quest.1.description.6}"
+				"{chapter.1.quest.1.description.7}"
+			]
+			size: 3.0d
+			id: "295DD4F3C9BE7B91"
+			tasks: [{
+				id: "5E30F510269DCD47"
+				type: "checkmark"
+				title: "{chapter.1.quest.1.task.1.title}"
+			}]
+		}
+		{
+			icon: "geolosys:gold_ore"
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["295DD4F3C9BE7B91"]
+			size: 1.5d
+			id: "2ABFD83FA5839079"
+			tasks: [{
+				id: "40084FB2E0BAD0BF"
+				type: "checkmark"
+				title: "About Stages"
+			}]
+		}
+		{
+			icon: "adpother:sulfur"
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["295DD4F3C9BE7B91"]
+			size: 1.5d
+			id: "29A6EB51593476DD"
+			tasks: [{
+				id: "1675DEBF1655F89E"
+				type: "checkmark"
+				title: "About Pollutions"
+			}]
+		}
+		{
+			icon: {
+				id: "terraqueous:cherry_leaves"
+				Count: 1b
+				tag: {
+					type: 2
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["295DD4F3C9BE7B91"]
+			size: 1.5d
+			id: "2A3D996BB78A2DC0"
+			tasks: [{
+				id: "1E2B1318C4F98D2B"
+				type: "checkmark"
+				title: "About Seasons"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			shape: "diamond"
+			dependencies: [
+				"29A6EB51593476DD"
+				"2A3D996BB78A2DC0"
+				"2ABFD83FA5839079"
+			]
+			size: 3.0d
+			id: "534E878DC8F35BC0"
+			tasks: [{
+				id: "46E7655EC6DAA15A"
+				type: "checkmark"
+				title: "Stage0 start"
+			}]
+			rewards: [{
+				id: "7DAEF3BD27BCD81D"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "stage0"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

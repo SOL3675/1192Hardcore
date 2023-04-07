@@ -1,0 +1,140 @@
+{
+	id: "211257A0DA022715"
+	group: "27FAEE5400EF4E9E"
+	order_index: 0
+	filename: "basic_survival"
+	title: "Basic Survival"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	hide_quest_details_until_startable: true
+	quests: [
+		{
+			x: -9.5d
+			y: 0.0d
+			dependencies: ["534E878DC8F35BC0"]
+			id: "15F54627C84D136E"
+			tasks: [{
+				id: "1E36D123DF6019ED"
+				type: "item"
+				title: "Any #forge:pebbles"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:pebbles"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["15F54627C84D136E"]
+			id: "400AFCF7B7DB2F17"
+			tasks: [{
+				id: "4593D283B90DABBF"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: [
+				"400AFCF7B7DB2F17"
+				"6C1CF3DDD54BA8C7"
+			]
+			id: "06E869EBD5845DE6"
+			tasks: [{
+				id: "65D86AB4554BCAF4"
+				type: "item"
+				item: {
+					id: "natprog:flint_hatchet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.5d
+			dependencies: ["534E878DC8F35BC0"]
+			id: "6C1CF3DDD54BA8C7"
+			tasks: [{
+				id: "62F4C060AE198C09"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.5d
+			dependencies: ["534E878DC8F35BC0"]
+			id: "51A29356BDD94BF2"
+			tasks: [{
+				id: "3D24D89F8C3DC762"
+				type: "item"
+				item: "minecraft:bone"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			dependencies: [
+				"51A29356BDD94BF2"
+				"400AFCF7B7DB2F17"
+			]
+			id: "7B545C99C537A3DE"
+			tasks: [{
+				id: "1682181F2DAA5F33"
+				type: "item"
+				item: {
+					id: "natprog:bone_shard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["06E869EBD5845DE6"]
+			id: "5C3F39C54465CFC6"
+			tasks: [{
+				id: "72C93C3C43C73F9F"
+				type: "item"
+				title: "Any #forge:stripped_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stripped_logs"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["5C3F39C54465CFC6"]
+			id: "63DE599B6A9C7A41"
+			tasks: [{
+				id: "54E7190FBD894D3E"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
