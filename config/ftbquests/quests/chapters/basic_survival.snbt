@@ -27,8 +27,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 0.0d
+			x: -7.0d
+			y: -0.5d
 			dependencies: ["15F54627C84D136E"]
 			id: "400AFCF7B7DB2F17"
 			tasks: [{
@@ -39,7 +39,7 @@
 		}
 		{
 			x: -6.5d
-			y: 0.0d
+			y: -1.5d
 			dependencies: [
 				"400AFCF7B7DB2F17"
 				"6C1CF3DDD54BA8C7"
@@ -55,6 +55,7 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -101,7 +102,7 @@
 		}
 		{
 			x: -5.0d
-			y: 0.0d
+			y: -1.5d
 			dependencies: ["06E869EBD5845DE6"]
 			id: "5C3F39C54465CFC6"
 			tasks: [{
@@ -118,12 +119,72 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.0d
-			dependencies: ["5C3F39C54465CFC6"]
-			id: "63DE599B6A9C7A41"
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["7B545C99C537A3DE"]
+			id: "5817BC298B864074"
 			tasks: [{
-				id: "54E7190FBD894D3E"
+				id: "0C3667A481B6E7C5"
+				type: "item"
+				item: {
+					id: "natprog:bone_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: [
+				"5817BC298B864074"
+				"5C3F39C54465CFC6"
+				"1829C8BA684DD291"
+			]
+			size: 3.0d
+			id: "5F227A8238153C03"
+			tasks: [{
+				id: "4FC8A163996A6C0D"
+				type: "item"
+				item: "minecraft:crafting_table"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "78B868AD9A78F8C8"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "stage1"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["15F54627C84D136E"]
+			id: "2ACDACB0314CF849"
+			tasks: [{
+				id: "62FC1E9A096FF65D"
+				type: "item"
+				title: "Any #forge:cobblestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:cobblestone"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["5C3F39C54465CFC6"]
+			id: "7C55B3F040443A06"
+			tasks: [{
+				id: "3FEE2085271661AB"
 				type: "item"
 				title: "Any #minecraft:planks"
 				item: {
@@ -131,6 +192,26 @@
 					Count: 1b
 					tag: {
 						value: "minecraft:planks"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: [
+				"7C55B3F040443A06"
+				"2ACDACB0314CF849"
+			]
+			id: "1829C8BA684DD291"
+			tasks: [{
+				id: "537646BDF71B9B03"
+				type: "item"
+				item: {
+					id: "terraqueous:hammer"
+					Count: 1b
+					tag: {
+						charge: 0s
 					}
 				}
 			}]

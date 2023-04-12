@@ -16,4 +16,8 @@ public class Stages {
         this.stage[1].addItems(new ItemStage1().items);
         this.stage[1].restrictStage();
     }
+
+    public static addStagedRecipes() as void {
+        RecipeStage0.register();
+    }
 }

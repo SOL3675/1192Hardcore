@@ -92,13 +92,59 @@
 				type: "checkmark"
 				title: "Stage0 start"
 			}]
-			rewards: [{
-				id: "7DAEF3BD27BCD81D"
-				type: "gamestage"
-				auto: "invisible"
-				ignore_reward_blocking: true
-				stage: "stage0"
-			}]
+			rewards: [
+				{
+					id: "7DAEF3BD27BCD81D"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "stage0"
+				}
+				{
+					id: "24C6539629868F1F"
+					type: "item"
+					item: {
+						id: "toughasnails:leaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1E1042EB58817E00"
+					type: "item"
+					item: {
+						id: "toughasnails:leaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27919C5FCD2CCB45"
+					type: "item"
+					item: {
+						id: "toughasnails:leaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BEB774B0BA39653"
+					type: "item"
+					item: {
+						id: "toughasnails:leaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 	quest_links: [ ]
